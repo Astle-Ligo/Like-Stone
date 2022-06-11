@@ -1,3 +1,60 @@
 .title-text{
     text-decoration: none;
+    width: 100%;
+    padding: 5;
+    font-family: "Arial", Helvetica, sans-serif;
+    
+}
+.header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 10%;
+    color: antiquewhite;
+}
+.list-items{
+    text-align: right;
+}
+.background-image{
+    width: 100%;
+    height: 100vh;
+}
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+#about-us{
+    text-align: center;
+    background-color:yellow;
+    border:solid;
+    border-left-width: 3vh;
+    border-top-width: 3vh;
+    border-top-left-radius: 15%;
+    border-bottom-width: 1vh;
+    border-right-width: 1vh;
+    float: left;
+    height: 30rem;
+    margin-top: 5%;
+}
+#services{
+    text-align: center;
+    background-color:yellow;
+    border:solid;
+    border-right-width: 3vh;
+    border-top-width: 3vh;
+    border-top-right-radius: 15%;
+    border-bottom-width: 1vh;
+    border-left-width: 1vh;
+    float:right;
+    height: 30rem;
+    margin-top: 5%;
+}
+.words{
+    font-weight: bold;
+}
+.body{
+    margin: 0;
 }
