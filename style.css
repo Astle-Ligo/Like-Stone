@@ -26,44 +26,28 @@
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
   }
-#about-us{
-   padding-top: 5%;
-   color:firebrick;
-   position: absolute;
-   top: 40%;
-   left: 40%;
-   transform: translate(-50%, 50%);
-}
-#services{
-    text-align: center;
-    background-color:yellow;
-    border:solid;
-    border-right-width: 3vh;
-    border-top-width: 3vh;
-    border-top-right-radius: 15%;
-    border-bottom-width: 1vh;
-    border-left-width: 1vh;
-    float:right;
-    height: 30rem;
-    margin-top: 5%;
-}
 .words{
     font-weight: bold;
 }
-.body{
+body{
     margin: 0;
+    background: rgb(42,40,40);
+    background: -moz-linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
+    background: -webkit-linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
+    background: linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a2828",endColorstr="#b0a73e",GradientType=1);
     
 }
 .heading-name{
     float: left;
 }
 .clouds{
-    height: 15vh;
+    height: 25vh;
     width: 100vw;
     position: absolute;
     top:40%;
     left:50%;
-    transform: translate(-40%, 350%);
+    transform: translate(-40%, 170%);
 }
 .about-pic{
     width:20%;
@@ -71,24 +55,32 @@
     transform: translate(-40%, 35%);
 }
 .bg-img{
-    width:50vw;
-    height:90vh;
-    padding-top: 5%;
+    width:45rem;
+    height: 35rem;
+    margin-left: -10rem;
+    margin-top: 2rem;
 }
-.about-us{
-    position: absolute;
-    top:40%;
-    left:50%;
-    color: aliceblue;
-    font-size: 2.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    transform: translate(-170%, -50%);
+#about-us{
+   color: aliceblue;
+   float:right;
 }
-.about-para{
-    position: absolute;
-    top:40%;
-    left:50%;
-    color: aliceblue;
-    font-size: 1.5rem;
-    transform: translate(-90%, 100%);
+.vl {
+    border-right: 6px solid white;
+    height:15rem;
+    float: left;
+    margin-top: 2%;
+    border-radius: 1%;
+  }
+  .about-image{
+    float: left;
+    padding-left: 3%;
+    border-radius: 20%;
+    margin-top: 3%;
+    display: block;
+  }
+  .sep{
+    margin-top: 10%;
+  }
+.service-image{
+    padding-top: 20%;
 }
