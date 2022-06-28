@@ -63,8 +63,9 @@ body{
 #about-us{
    color: aliceblue;
    float:right;
+   margin-top: 10%;
 }
-.vl {
+.vr {
     border-right: 6px solid white;
     height:15rem;
     float: left;
@@ -78,9 +79,19 @@ body{
     margin-top: 3%;
     display: block;
   }
-  .sep{
-    margin-top: 10%;
-  }
+#services{
+    color: aliceblue;
+    float:right;
+    margin-top: 10%; 
+}
 .service-image{
-    padding-top: 20%;
+    margin-top: 10%;
+    float: left;
+}
+.vl{
+    border-left: 6px solid white;
+    height:15rem;
+    float: left;
+    margin-top: 2%;
+    border-radius: 1%;
 }
