@@ -83,15 +83,71 @@ body{
     color: aliceblue;
     float:right;
     margin-top: 10%; 
+    width: 100vw;
 }
 .service-image{
-    margin-top: 10%;
     float: left;
+    margin-top: 5%;
+    display: block;
 }
 .vl{
     border-left: 6px solid white;
-    height:15rem;
+    height:11rem;
+    float: left;
+    border-radius: 1%;
+    margin-top: 2%;
+}
+.contact_me{
+    margin-top: 10%;
+}
+#contact_me{
+    color: aliceblue;
+    float:right;
+    margin-top: 10%; 
+    width: 100vw; 
+}
+.map{
+    width: 18rem;
+    height: 15rem;
+    border: 2rem solid;
+    border-color: black;
+    border-radius: 15%;
+}
+.address{
+    float: left;
+    padding-left: 5%;
+}
+.vrmap{
+    border-right: 6px solid white;
+    height:25rem;
     float: left;
     margin-top: 2%;
     border-radius: 1%;
-}
+  }
+  .call{
+    float: left;
+    padding-left: 5%;
+  }
+  .whatsapp{
+    float: left;
+    padding-left: 5%;
+  }
+  #contact_me{
+  }
+  .contact_link{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footer{
+    width: 100vw;
+    height: 5rem;
+    background-color: black;
+    float: left;
+    color: aliceblue;
+  }
+  .footer_link{
+    float: left;
+  }
+  .rights{
+    float: left;
+  }
