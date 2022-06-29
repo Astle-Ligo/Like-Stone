@@ -62,7 +62,7 @@ body{
 }
 #about-us{
    color: aliceblue;
-   float:right;
+   float:left;
    margin-top: 10%;
 }
 .vr {
@@ -107,8 +107,8 @@ body{
     width: 100vw; 
 }
 .map{
-    width: 18rem;
-    height: 15rem;
+    width: 45vh;
+    height: 30vh;
     border: 2rem solid;
     border-color: black;
     border-radius: 15%;
@@ -132,15 +132,13 @@ body{
     float: left;
     padding-left: 5%;
   }
-  #contact_me{
-  }
   .contact_link{
     color: aliceblue;
     text-decoration: none;
   }
   .footer{
     width: 100vw;
-    height: 5rem;
+    height: auto;
     background-color: black;
     float: left;
     color: aliceblue;
@@ -151,3 +149,41 @@ body{
   .rights{
     float: left;
   }
+  @media screen and (max-width: 768px) {
+    .vl{
+        border-top: 6px solid white;
+        width:50vw;
+        float: left;
+        height: 0;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+    }
+  }
+@media screen and (max-width: 768px) {
+    .vr{
+        border-top: 6px solid white;
+        width:50vw;
+        float: left;
+        height: 0;
+        align-items: center;
+        margin-top: 5%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .vrmap{
+        border-top: 6px solid white;
+        width:50vw;
+        float: left;
+        height: 0;
+        align-items: center;
+        margin-bottom: 10%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+}
