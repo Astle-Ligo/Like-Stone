@@ -1,19 +1,9 @@
-.title-text{
-    text-decoration: none;
-    width: 100%;
-    padding: 5;
-    font-family: "Arial", Helvetica, sans-serif;
-    
-}
 .header{
     width: 100%;
     position: fixed;
     z-index: 1;
     height: 10%;
     color: antiquewhite;
-}
-.list-items{
-    text-align: right;
 }
 .background-image{
     width: 100vw;
@@ -26,21 +16,11 @@
     transform: translate(-50%, -50%);
     color: rgb(255, 255, 255);
   }
-.words{
-    font-weight: bold;
-}
 body{
     margin: 0;
-    background: rgb(42,40,40);
-    background: -moz-linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
-    background: -webkit-linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
-    background: linear-gradient(105deg, rgba(42,40,40,1) 0%, rgba(176,167,62,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a2828",endColorstr="#b0a73e",GradientType=1);
+    background-color:rgb(153,101,21,.7);    
     overflow:auto;
-    
-}
-.heading-name{
-    float: left;
+    width: 100%;    
 }
 .clouds{
     height: 25vh;
@@ -49,11 +29,6 @@ body{
     top:40%;
     left:50%;
     transform: translate(-40%, 170%);
-}
-.about-pic{
-    width:20%;
-    height: 20%;
-    transform: translate(-40%, 35%);
 }
 .bg-img{
     width:45rem;
@@ -64,7 +39,7 @@ body{
 #about-us{
    color: aliceblue;
    float:left;
-   margin-top: 10%;
+   padding-top: 10%;
 }
 .vr {
     border-right: 6px solid white;
@@ -75,15 +50,15 @@ body{
   }
   .about-image{
     float: left;
-    padding-left: 3%;
     border-radius: 20%;
-    margin-top: 3%;
     display: block;
+    padding-left: 3%;
+    margin-top: 5%;   
   }
 #services{
     color: aliceblue;
     float:right;
-    margin-top: 10%; 
+    padding-top: 10%; 
     width: 100vw;
 }
 .service-image{
@@ -104,7 +79,7 @@ body{
 #contact_me{
     color: aliceblue;
     float:right;
-    margin-top: 10%; 
+    padding-top: 10%; 
     width: 100vw; 
 }
 .map{
@@ -122,7 +97,7 @@ body{
     border-right: 6px solid white;
     height:25rem;
     float: left;
-    margin-top: 2%;
+    padding-top: 3%;
     border-radius: 1%;
   }
   .call{
@@ -150,7 +125,7 @@ body{
   .rights{
     float: left;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 992px) {
     .vl{
         border-top: 6px solid white;
         width:50vw;
@@ -163,7 +138,7 @@ body{
         margin-bottom: 5%;
     }
   }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .vr{
         border-top: 6px solid white;
         width:50vw;
@@ -176,7 +151,7 @@ body{
         margin-bottom: 5%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .vrmap{
         border-top: 6px solid white;
         width:50vw;
@@ -184,7 +159,7 @@ body{
         height: 0;
         align-items: center;
         margin-bottom: 10%;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-inline: 25%;
+        padding: 0;
     }
 }
